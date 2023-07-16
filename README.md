@@ -9,11 +9,11 @@ Task Management System: Develop a script that allows users to create, assign, an
 Post /tasks
 ```html
 {
-       "title": "Task 1",
-       "assignee": "John Doe",
-       "dueDate": "2022-12-31",
-       "priority": "High"
-     }
+     "title": "Task 1",
+     "assignee": "John Doe",
+     "dueDate": "2022-12-31",
+     "priority": "High"
+}
 ```
 
 ### add assignee
@@ -36,7 +36,7 @@ post /tasks/{id}/comments
 ```
 
 ### Get all tasks
-GET /tasks/
+GET /tasks
 
 ### Using GUI
 localhost:8081/index.html
